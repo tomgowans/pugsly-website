@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comic Sans MS", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("bg-print.png");
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+p {
+  margin: 20px 0;
+}
+
+nav {
+  background: #874d4d;
+  display: block;
+  margin: 10px 0;
+}
+
+nav a {
+  color: white;
+  padding: 0 10px;
+}
+nav ul {
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav li {
+  color: white;
+  display: inline-block;
+}
